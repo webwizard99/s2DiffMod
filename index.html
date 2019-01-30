@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./resources/css/reset.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./resources/css/style.css">
+
+    <title>Sacred 2 Difficulty Maker</title>
+  </head>
+  <body id="mainBody" >
+    <!-- <input id="blueprintSelector" type="file"> -->
+    <!-- <label for="blueprintSelector">Input</label> -->
+    <div class="container-fluid">    
+        <div class="row">
+          <div class="col-xs-6">
+            <h3>Original</h3>
+          </div>
+          <div class="col-xs-6">
+            <h3>Modded</h3>
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <form id="blueprint-input">
+            <textarea id="blueprint-in-content" cols="70" rows="32"></textarea>
+            <input type="submit" id="blueprint-submit">
+          </form>
+        </div>
+
+        <div class="col-xs-6">
+          <div id="blueprint-output"></div>
+        </div>
+        
+    </div>
+  
+
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+      integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./resources/js/main.js"></script>
+  </body>
+</html>

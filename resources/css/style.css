@@ -1,0 +1,5 @@
+#blueprint-output {
+    height: 80vh;
+    overflow: scroll;
+    border: 1px solid rgba(60,60,60,.4)
+}
